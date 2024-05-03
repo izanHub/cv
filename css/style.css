@@ -1,3 +1,30 @@
+
+nav {
+    background-color: rgb(255, 97, 82);
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  nav li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(0, 0, 0);
@@ -37,13 +64,7 @@ h1{
 img{
     border-radius: 5%;
     margin-top: 2%;
-}
-
-.enlaces{
-    text-decoration: none;
-    color: black;
-    margin: 4px;
-    font-weight: bolder;
+    margin-bottom: 1%;
 }
 
 .titulos{
@@ -58,3 +79,39 @@ table{
     border-collapse: collapse;
     font-size: 20px;
 }
+
+
+
+
+
+footer {
+    background-color: rgb(255, 97, 82);
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+  .footer-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .footer-btn:hover {
+    background-color: #3e8e41;
+    text-decoration: none;
+  }
