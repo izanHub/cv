@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.cap{
+    align-items: center;
+    background-color: rgb(255, 97, 82);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre{
+    text-align: center;
+    display: flex;
+    padding-right: 15%;
+}
+
+.texto{
+    margin-right: 10px;
+}
+
+.sobre-container{
+    flex: 1;
+    padding-left: 10%;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+img{
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+    font-weight: bolder;
+}
+
+.titulos{
+    background-color: rgb(255, 97, 82);
+    padding: 25px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    text-align:center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
